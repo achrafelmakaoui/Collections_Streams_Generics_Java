@@ -9,12 +9,12 @@ public class Application {
 
         do {
             System.out.println("\nMenu:");
-            System.out.println("1. Display products");
-            System.out.println("2. Search product by id");
-            System.out.println("3. Add product");
+            System.out.println("1. Display the list of products");
+            System.out.println("2. Search for a product by its id");
+            System.out.println("3. Add a new product to the list");
             System.out.println("4. Delete product by id");
-            System.out.println("5. Exit");
-            System.out.print("Choice: ");
+            System.out.println("5. Exit this program");
+            System.out.print("Your Choice: ");
             choice = scanner.nextInt();
             scanner.nextLine();
 
@@ -48,7 +48,7 @@ public class Application {
                     System.out.println("Product deleted if existed.");
                     break;
                 case 5:
-                    System.out.println("Exiting...");
+                    System.out.println("Exiting");
                     break;
                 default:
                     System.out.println("Invalid choice!");
